@@ -1,7 +1,6 @@
 import requests
 import pandas as pd
-from datetime import datetime, timedelta
-import time
+from datetime import datetime
 from configparser import ConfigParser
 
 import pyarrow as pa
@@ -9,7 +8,6 @@ from deltalake import write_deltalake, DeltaTable
 from deltalake.exceptions import TableNotFoundError
 
 import ast
-
 
 #############################################################################
 ###############################  FUNCIONES  #################################
